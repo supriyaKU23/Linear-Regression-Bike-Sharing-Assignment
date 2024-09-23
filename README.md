@@ -19,10 +19,13 @@
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Demand of bikes depend on year, temp, weather(clear, light snow), season(spring and winter), month(Sept, Mar)
+
+We can see that the equation of our best fitted line is:
+
+cnt = 1227.88 + 1990.22 x yr + 3627.75 x temp − 1286.15 x season_spring + 532.08 x season_winter + 579.05 x mnth_mar + 591.18 x mnth_sept + 663.43 x weathersit_clear − 1678.79 x weathersit_lightsnow
+
+Overall we have a decent model without overfitting issue, but I also acknowledge that there could be other factors which might influence the model which were removed during VIF analysis and also multicollinearity analysis like holiday, windspeed, humidity, etc.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
