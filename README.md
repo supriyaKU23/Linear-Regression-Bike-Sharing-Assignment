@@ -23,7 +23,7 @@ Demand of bikes depend on year, temp, weather(clear, light snow), season(spring 
 
 We can see that the equation of our best fitted line is:
 
-cnt = 1227.88 + 1990.22 x yr + 3627.75 x temp − 1286.15 x season_spring + 532.08 x season_winter + 579.05 x mnth_mar + 591.18 x mnth_sept + 663.43 x weathersit_clear − 1678.79 x weathersit_lightsnow
+cnt = 0.1141 + 0.2339 x yr + 0.0258 x workingday + 0.4291 x temp − 0.1175 x season_spring + 0.553 x season_winter + 0.0733 x mnth_sept + 0.0768 x weathersit_clear − 0.2235 x weathersit_lightsnow
 
 Overall we have a decent model without overfitting issue, but I also acknowledge that there could be other factors which might influence the model which were removed during VIF analysis and also multicollinearity analysis like holiday, windspeed, humidity, etc.
 
